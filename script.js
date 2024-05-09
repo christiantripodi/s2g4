@@ -61,19 +61,26 @@ console.log(crazyDiff(20))
 
 
 /* ESERCIZIO 4
- Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
- se n è uguale a 400.
+ Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure se n è uguale a 400.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 
 
-function boundary(n){
+// function boundary(n){
 
+// if(n >= 20 || n <= 100){
+//     return "true"
+// }else if(n == 400){
+//     return "false"
+// }else{
+//     return "nessuno dei precedenti"
+// }
 
+// }
 
-}
+// console.log(boundary(200))
 
 
 
@@ -107,6 +114,10 @@ console.log(epify("corso"))
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+function check3and7 (){
+    
+}
 
 
 
