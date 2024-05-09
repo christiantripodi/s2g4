@@ -69,7 +69,11 @@ console.log(crazyDiff(20))
 
 
 
-function
+function boundary(n){
+
+
+
+}
 
 
 
@@ -81,6 +85,22 @@ function
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+
+function epify(s) {
+
+if(s === "EPICODE"){
+    return "EPICODE"
+}else{
+    return s + " " + "EPICODE"
+}
+
+}
+
+console.log(epify("corso"))
+
+
+
+
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
  di 3 o di 7. (Suggerimento: usa l'operatore modulo)
@@ -88,11 +108,32 @@ function
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+
+
+
+
+
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
+function reverseString(str) {
+
+    let splitString = str.split("")
+ 
+    let reverse = splitString.reverse()
+ 
+    var unisci = reverse.join("")
+    
+    return unisci;
+}
+ 
+console.log(reverseString("EPICODE"))
+
+
 
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
@@ -101,6 +142,12 @@ function
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+
+
+
+
+
+
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
@@ -108,8 +155,22 @@ function
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+
+function cutString (val){
+
+    let splitVal = val.split("")
+    let menoPrima = splitVal.shift("")
+    let menoUltima = splitVal.pop("")
+
+return splitVal
+}
+
+console.log(cutString("Decamerone"))
+
+
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
